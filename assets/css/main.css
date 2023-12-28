@@ -154,6 +154,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: "Montserrat", sans-serif;
 }
 
 ol,
@@ -1147,7 +1148,7 @@ textarea:focus {
 .form-group input {
   background: #fff;
   border: 1px solid #ececec;
-  height: 64px;
+  height: 50px;
   box-shadow: none;
   padding-left: 20px;
   font-size: 16px;

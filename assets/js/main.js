@@ -171,7 +171,7 @@
     $(".swiper-group-6").each(function () {
         var swiper_6_items = new Swiper(this, {
             spaceBetween: 30,
-            slidesPerView: 6,
+            slidesPerView: 5,
             spaceBetween: 30,
             slidesPerGroup: 2,
             loop: true,
