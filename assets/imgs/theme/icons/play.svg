@@ -1,9 +1,9 @@
 <svg width="148" height="148" viewBox="0 0 148 148" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_146_3852)">
-<circle cx="74" cy="66" r="50" fill="#9777FA"/>
+<circle cx="74" cy="66" r="50" fill="#1e79ba"/>
 </g>
 <circle cx="74" cy="66" r="39.0244" fill="url(#paint0_linear_146_3852)"/>
-<path d="M92.5392 63.1657C94.2373 64.0715 94.318 66.4758 92.6846 67.4934L67.0808 83.4449C65.4474 84.4625 63.3248 83.3303 63.2603 81.4069L62.2478 51.2576C62.1832 49.3342 64.225 48.0622 65.923 48.9679L92.5392 63.1657Z" fill="#9777FA"/>
+<path d="M92.5392 63.1657C94.2373 64.0715 94.318 66.4758 92.6846 67.4934L67.0808 83.4449C65.4474 84.4625 63.3248 83.3303 63.2603 81.4069L62.2478 51.2576C62.1832 49.3342 64.225 48.0622 65.923 48.9679L92.5392 63.1657Z" fill="#1e79ba"/>
 <defs>
 <filter id="filter0_d_146_3852" x="0" y="0" width="148" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

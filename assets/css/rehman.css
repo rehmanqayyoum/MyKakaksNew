@@ -1,0 +1,335 @@
+.my_home_main .section-box.section-first .banner-hero .block-banner {
+  padding-right: 190px;
+}
+
+.my_home_main .section-box.section-first .block-banner .text-small-primary {
+  color: #1e79ba;
+}
+
+.my_home_main
+  .section-box.section-first
+  .banner-hero
+  .block-banner
+  h1.heading-banner {
+  font-size: 48px;
+  color: #1e79ba;
+}
+
+.my_home_main
+  .section-box.section-first
+  .banner-hero
+  .block-banner
+  h1.heading-banner
+  span {
+  color: #1f2938;
+}
+
+.section-box.services .card-grid {
+  padding: 26px 14px;
+  cursor: pointer;
+}
+
+.section-box.services .card-grid .card-heading {
+  min-height: auto !important;
+}
+
+.section-box.services .card-grid .card-heading a,
+.section-box.services .card-grid p {
+  color: #1e79ba;
+  font-weight: 600;
+}
+
+.section-box.partners_slides
+  .box-swiper
+  .swiper-wrapper
+  .swiper-slide
+  .item-logo {
+  background: #f8f8f8;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.section-box.partners_slides
+  .box-swiper
+  .swiper-wrapper
+  .swiper-slide
+  .item-logo
+  a
+  img {
+  display: block;
+}
+
+.my_home_main section.section-box.section-fourth.why_us .container {
+  padding-bottom: 100px;
+}
+
+.my_home_main
+  section.section-box.why_us
+  .box-image-job
+  .job-top-creator
+  ul
+  li
+  figure
+  img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #fff9f3;
+  padding-top: 50px;
+}
+
+.about_us .section-box.how_it_work .about_content .card.howitwork-info {
+  min-height: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  h6 {
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 24px;
+}
+
+.about_us .section-box.how_it_work .about_content .card.howitwork-info h5 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #374b5c;
+  transition: all 0.7s;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  h5:before {
+  content: "";
+  border: 5px solid #374b5c;
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  right: 12px;
+  height: 20px;
+  background: transparent;
+  color: #fff;
+  border-radius: 50px;
+  top: auto;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  h5:after {
+  content: "";
+  border-top: 4px solid #374b5c;
+  display: inline-block;
+  width: calc(100% - 110px);
+  position: absolute;
+  top: auto;
+  left: 80px;
+}
+
+/* .about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  .overlay {
+  background: rgb(163 163 163 / 14%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  .overlay_1 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  .overlay h3 {
+    font-size: 28px;
+    color: #1e79ba;
+} */
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  .related_img {
+  max-width: 55%;
+  margin: auto;
+  height: 190px;
+  position: relative;
+}
+
+.about_us
+  .section-box.how_it_work
+  .about_content
+  .card.howitwork-info
+  .card-body
+  .related_img
+  img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+}
+
+.section-box.services .row .card-grid:hover {
+  background-color: #cfe2f1;
+  border: none;
+}
+
+.section-box.services .row .card-grid:hover figure img {
+  filter: grayscale(0%);
+}
+
+.section-box.services .row .card-grid figure img {
+  filter: grayscale(100%);
+}
+
+.section-title {
+  color: #1e79ba;
+}
+
+.page-services .block-pricing {
+    padding: 20px;
+}
+
+.page-services .block-pricing .box-pricing-item{
+    border-radius: 26px;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-services .block-pricing .box-pricing-item .list-package-feature {
+    flex: 1;
+}
+
+.page-services .block-pricing .box-pricing-item .btn {
+    font-weight: bold;
+    color: #1e79ba;
+    width: 100%;
+    text-align: center;
+  }
+
+.page-services .block-pricing .box-pricing-item .btn:hover {
+    background-color: #fdfdfd;
+    color: #1e79ba;
+}
+
+.page-services .block-pricing .box-pricing-item.most-popular {
+    margin-top: 0px;
+    background: #1e79ba url(../imgs/theme/bg-featured.svg) no-repeat top right !important;
+    background-size: contain !important;
+    border-radius: 26px !important;
+    padding: 20px 30px 44px 30px !important;
+    min-height: 100%;
+}
+
+.contact_us_page section.drop_us .location_card.card {
+  padding: 15px;
+  background-color: #fff9f3;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contact_us_page section.drop_us .contact-from-area.card {
+  padding: 20px 15px;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contact_us_page section.drop_us .location_card .contact_info {
+  border-bottom: .7px solid #d3d3d38c;
+  padding-bottom: 8px;
+  margin-top: 15px;
+}
+
+.contact_us_page section.drop_us .location_card .contact_info img {
+  --size: 50px;
+  max-width: var(--size);
+  max-height: var(--size);
+}
+
+.contact_us_page section.drop_us .contact-from-area.card .textarea-style textarea {
+  min-height: 160px;
+}
+
+.contact_us_page section.drop_us .contact-from-area.card .submit{
+  padding: 14px 26px;
+  font-size: 17px !important;
+}
+
+.contact_us_page section.drop_us .contact-from-area.card .submit:hover {
+  background-color: #fdfdfd !important;
+  color: #1e79ba;
+  border: 1px solid #1e79ba;
+}
+
+.section-box.assurities .box-newsletter {
+  padding: 60px 40px;
+}
+
+.section-box.assurities .box-newsletter .assurity-cards {
+  border-radius: 6px;
+}
+
+.section-box.assurities .box-newsletter .assurity-cards .assurity-title,
+.section-box.assurities .box-newsletter .assurity-cards .assurity-info  {
+  color: #fdfdfd;
+}
+
+.coverage_areas_main .contact_info {
+  border: none !important;
+}
+
+.coverage_areas_main .contact_info ul li {
+  margin-bottom: 15px;
+  padding: 14px 20px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.coverage_areas_main .contact_info ul li:last-child {
+  margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .contact_us_page section.drop_us .location_card.card {
+    margin-bottom: 60px;
+  }
+}

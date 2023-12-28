@@ -9,9 +9,15 @@
         color: $color-white;
         background-color: $color-brand;
         &:hover {
-            background-color: $background-brand-hover;
-            transform: translateY(-2px);
-            transition: 0.2s;
+            // background-color: $background-brand-hover;
+            // transform: translateY(-2px);
+            // transition: 0.2s;
+
+            background-color: #fff;
+            border: 1px solid $color-brand;
+            box-shadow: inset 0 70px 0 0 #ffffff;
+            color: $color-brand;
+            transition: all 0.7s;
         }
     }
 }
@@ -85,7 +91,7 @@
     position: relative;
     display: inline-block;
     &::before {
-        background: #9777fa;
+        background: #1e79ba;
         filter: blur(20px);
         border-radius: 10px;
         content: "";

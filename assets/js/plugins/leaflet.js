@@ -19,8 +19,8 @@
             //     .bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
 
             L.circle([51.508, -0.11], 500, {
-                color: "#9777fa",
-                fillColor: "#9777fa",
+                color: "#1e79ba",
+                fillColor: "#1e79ba",
                 fillOpacity: 0.5
             })
                 .addTo(mymap)
