@@ -1,5 +1,5 @@
 .my_home_main .section-box.section-first .banner-hero .block-banner {
-  padding-right: 190px;
+  padding-right: 120px;
 }
 
 .my_home_main .section-box.section-first .block-banner .text-small-primary {
@@ -222,39 +222,39 @@ footer {
 }
 
 .page-services .block-pricing {
-    padding: 20px;
+  padding: 20px;
 }
 
-.page-services .block-pricing .box-pricing-item{
-    border-radius: 26px;
-    background: #eaeaea;
-    display: flex;
-    flex-direction: column;
+.page-services .block-pricing .box-pricing-item {
+  border-radius: 26px;
+  background: #eaeaea;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-services .block-pricing .box-pricing-item .list-package-feature {
-    flex: 1;
+  flex: 1;
 }
 
 .page-services .block-pricing .box-pricing-item .btn {
-    font-weight: bold;
-    color: #1e79ba;
-    width: 100%;
-    text-align: center;
-  }
+  font-weight: bold;
+  color: #1e79ba;
+  width: 100%;
+  text-align: center;
+}
 
 .page-services .block-pricing .box-pricing-item .btn:hover {
-    background-color: #fdfdfd;
-    color: #1e79ba;
+  background-color: #fdfdfd;
+  color: #1e79ba;
 }
 
 .page-services .block-pricing .box-pricing-item.most-popular {
-    margin-top: 0px;
-    background: #1e79ba url(../imgs/theme/bg-featured.svg) no-repeat top right !important;
-    background-size: contain !important;
-    border-radius: 26px !important;
-    padding: 20px 30px 44px 30px !important;
-    min-height: 100%;
+  margin-top: 0px;
+  background: #1e79ba url(../imgs/theme/bg-featured.svg) no-repeat top right !important;
+  background-size: contain !important;
+  border-radius: 26px !important;
+  padding: 20px 30px 44px 30px !important;
+  min-height: 100%;
 }
 
 .contact_us_page section.drop_us .location_card.card {
@@ -271,7 +271,7 @@ footer {
 }
 
 .contact_us_page section.drop_us .location_card .contact_info {
-  border-bottom: .7px solid #d3d3d38c;
+  border-bottom: 0.7px solid #d3d3d38c;
   padding-bottom: 8px;
   margin-top: 15px;
 }
@@ -282,11 +282,15 @@ footer {
   max-height: var(--size);
 }
 
-.contact_us_page section.drop_us .contact-from-area.card .textarea-style textarea {
+.contact_us_page
+  section.drop_us
+  .contact-from-area.card
+  .textarea-style
+  textarea {
   min-height: 160px;
 }
 
-.contact_us_page section.drop_us .contact-from-area.card .submit{
+.contact_us_page section.drop_us .contact-from-area.card .submit {
   padding: 14px 26px;
   font-size: 17px !important;
 }
@@ -306,7 +310,7 @@ footer {
 }
 
 .section-box.assurities .box-newsletter .assurity-cards .assurity-title,
-.section-box.assurities .box-newsletter .assurity-cards .assurity-info  {
+.section-box.assurities .box-newsletter .assurity-cards .assurity-info {
   color: #fdfdfd;
 }
 
@@ -328,8 +332,29 @@ footer {
   margin-bottom: 0px !important;
 }
 
-@media screen and (max-width: 767px) {
-  .contact_us_page section.drop_us .location_card.card {
-    margin-bottom: 60px;
-  }
+.gj-datepicker {
+  flex-wrap: nowrap !important;
+  margin: 0 10px 0 0 !important;
+}
+
+.gj-datepicker input {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.gj-datepicker .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(26, 15, 9, 0.1);
+  padding: 10px 20px !important;
+  margin-left: 0px !important;
+}
+
+.gj-datepicker .gj-icon {
+  position: static !important;
+}
+
+.gj-datepicker input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none !important;
 }

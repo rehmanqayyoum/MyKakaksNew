@@ -1,0 +1,12 @@
+@media screen and (min-width: 1300px) {
+  .my_home_main .section-box.section-first .banner-hero .block-banner {
+    padding-right: 190px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+    .contact_us_page section.drop_us .location_card.card {
+      margin-bottom: 60px;
+    }
+  }
