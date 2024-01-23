@@ -1,0 +1,153 @@
+@media screen and (min-width: 1300px) {
+  .my_home_main .section-box.section-first .banner-hero .block-banner {
+    padding-right: 190px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .create-new-booking .row.step-1 .card-content img {
+    max-width: 25% !important;
+  }
+
+  .create-new-booking .row.step-1 .card-content h4 {
+    max-width: 75% !important;
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .full-page--step {
+    display: block;
+  }
+
+  .full-page--step .nav {
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+  }
+
+  .full-page--step .nav-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .full-page--step .nav-link::after {
+    display: none;
+  }
+
+  .full-page--step .nav-link .icon {
+    z-index: 1;
+  }
+
+  .full-page--step .nav-item:not(:last-child) .icon::after {
+    width: calc(100% + 90px);
+    height: 1px;
+    position: absolute;
+    top: 53%;
+    left: calc(100% + 60px);
+    z-index: -1;
+  }
+
+  .dashboard_booking_details .card.dash-cards {
+    min-height: 100% !important;
+  }
+
+  .full-page--step .content-holder {
+    border-left: none;
+  }
+
+  .full-page--step .content-holder .step-content .parent_form {
+    margin: 0;
+  }
+
+  .full-page--step .data-holder {
+    padding: 30px;
+  }
+
+  label.radio-card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .booking_resuls_page .categorieslist-section .container .row.d-grid {
+    grid-template-columns: 300px auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .booking_resuls_page .categorieslist-section .container .row.d-grid {
+    grid-template-columns: 100%;
+}
+
+  .booking_resuls_page .categorieslist-section .container .row.d-grid .left-col {
+    margin-bottom: 30px;
+    min-height: auto !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact_us_page section.drop_us .location_card.card {
+    margin-bottom: 60px;
+  }
+
+  .full-page--step .nav {
+    flex-wrap: nowrap !important;
+  }
+
+  .SignIn_main.verify_otp .container {
+    max-width: 85% !important;
+    margin: 0px auto;
+  }
+
+  .SignIn_main.verify_otp .container::after {
+    border-radius: 6px !important;
+    width: 100%;
+  }
+
+  .SignIn_main.verify_otp .container form.verify-phone-no,
+  .SignIn_main.verify_otp .container form.verify-email {
+    flex-basis: 100%;
+  }
+
+  .SignIn_main.verify_otp .otp-modal .opt-form form input {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .full-page--step .data-holder {
+    padding: 40px 20px;
+  }
+
+  .full-page--step .nav {
+    flex-wrap: nowrap !important;
+  }
+
+  .full-page--step .nav-link {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .full-page--step .nav-item:not(:last-child) .icon::after {
+    width: calc(100% + 56px) !important;
+    height: 1px;
+    position: absolute;
+    top: 53%;
+    left: 100%;
+    z-index: -1;
+    transform: translateX(0);
+  }
+
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .full-page--step .nav-item:not(:last-child) .icon::after {
+    width: calc(100% + 30px) !important;
+  }
+}

@@ -356,7 +356,7 @@ input[type=number]:focus,
 
 body {
   background: url(../imgs/theme/background-blur.svg) no-repeat 0px 14%;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .none-shadow {
