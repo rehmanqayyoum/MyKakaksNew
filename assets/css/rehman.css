@@ -2114,3 +2114,7 @@ button.sign_google {
   padding-right: 2rem;
   cursor: pointer;
 }
+
+.cursor-pointer {
+  cursor: pointer !important;
+}

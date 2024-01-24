@@ -3363,6 +3363,7 @@ label {
 
 .footer .menu-footer {
   display: inline-block;
+  padding-left: 0;
 }
 .footer .menu-footer li {
   list-style: none;
